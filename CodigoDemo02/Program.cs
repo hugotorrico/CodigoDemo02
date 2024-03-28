@@ -180,6 +180,8 @@ Console.WriteLine("\n");//Salto de Línea
 Console.WriteLine("1.Calcular el área del cuadrado");
 Console.WriteLine("2.Calcular el volúmen del cubo");
 Console.WriteLine("3.Salir");
+Console.WriteLine("4.Nuevo Menu");
+
 
 opcion = Convert.ToInt32(Console.ReadLine());
 
@@ -187,6 +189,7 @@ switch (opcion)
 {
 	case 1:
         Console.WriteLine("AREA");
+        Console.WriteLine("AREA2");
         Console.WriteLine("======");
         Console.WriteLine("Ingrese el lado del cuadrado");
 
